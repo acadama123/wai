@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+}
+
+#top-section {
+    background-color: #F2B705;
+    padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+}
+
+/* Navigation Bar Section */
+
+.navbar-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.navbar-list {
+    list-style-type: none;
+}
+
+.navbar-item {
+    display: inline;
+    padding-left: 3rem;
+}
+
+.resume-page-icon {
+    color: #f9e38e;
+}
+
+.personal-page-icon {
+    color: #592B02;
+}
+
+.personal-page-icon:hover {
+    color: #8f4604;
+}
+
+/* Title Section */
+
+.title-text-wrapper {
+    padding-top: 5rem;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.title-img-wrapper {
+    padding: 0;
+    text-align: right;
+}
+
+.title-text-wrapper a {
+    text-decoration: none;
+}
+
+.title-button {
+    border: solid;
+    border-width: 2px;
+    border-color: #FFF;
+    height: 50px;
+    width: 225px;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #000;
+    padding: 8px 25px 12px;
+    margin: 0 auto auto;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+.title-button i {
+    transition: transform 0.5s;
+}
+
+.title-button:hover {
+    border-color: #F2B705;
+    background-color: #f9e38e;
+}
+
+.title-button:hover i {
+    transform: rotate(90deg);
+}
+
+/* About Section */
+
+#about {
+    
+}
+
+
+/* Experience Section */
+
+/* Projects Section */
+
+/* Email Form Section */
+
+/* Contacts Section */
+
+/* font-family: 'Nunito', sans-serif; */
