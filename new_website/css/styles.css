@@ -1,10 +1,13 @@
 body {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 #top-section {
-    background-color: #F2B705;
+    background-color: #ffdf91;
     padding: 3% 15% 7%;
+    height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,41 +17,65 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navigation Bar Section */
 
-.navbar-wrapper {
+.top-navbar-wrapper {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 30px;
 }
 
+.body-navbar-wrapper {
+    background-color: #493323;
+    padding: 1em 0 1em 15%;
+    position: sticky;
+    top: 0;
+    text-align: left;
+}
+
 .navbar-list {
     list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 .navbar-item {
     display: inline;
+}
+
+.top-navbar-wrapper .navbar-item {
     padding-left: 3rem;
 }
 
+.body-navbar-wrapper .navbar-item {
+    padding-right: 3rem;
+    font-size: 1.25rem;
+    color: #FFF6DE;
+}
+
+.body-navbar-wrapper a:hover {
+    color: #f4bc34;
+}
+
 .resume-page-icon {
-    color: #f9e38e;
+    color: #FFF6DE;
 }
 
 .personal-page-icon {
-    color: #592B02;
+    color: #807B6F;
 }
 
 .personal-page-icon:hover {
-    color: #8f4604;
+    color: #FFF6DE;
 }
 
 /* Title Section */
 
 .title-text-wrapper {
-    padding-top: 5rem;
+    color: #493323;
+    margin-top: 25vh;
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 20px;
 }
 
@@ -63,20 +90,19 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
 }
 
-.title-text-wrapper a {
+a {
     text-decoration: none;
+    color: inherit;
 }
 
 .title-button {
     border: solid;
     border-width: 2px;
-    border-color: #FFF;
+    border-color: #FFF6DE;
     height: 50px;
     width: 225px;
-    font-family:  "Montserrat", sans-serif;
-    font-weight: 400;
     font-size: 1.25rem;
-    color: #000;
+    color: #403E37;
     padding: 8px 25px 12px;
     margin: 0 auto auto;
     transition: background-color 0.5s, border 0.5s;
@@ -87,27 +113,67 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-button:hover {
-    border-color: #F2B705;
-    background-color: #f9e38e;
+    border-color: #ffdf91;
+    background-color: #eaac7f;
+    color: #FFF6DE;
 }
 
 .title-button:hover i {
     transform: rotate(90deg);
 }
 
+@media (max-width: 768px) {
+    .title-button {
+        height: 100px;
+        width: 350px;
+        padding: 20px 25px;
+        font-size: 2rem;
+    }
+    .top-navbar-wrapper {
+        padding-top: 10%;
+    }
+}
+
+/* Container */
+
+.body-container {
+    padding: 3% 15% 7%;
+}
+
+
 /* About Section */
 
 #about {
-    
+    background-color: #FFF;
+    color: #403E37;
 }
 
 
 /* Experience Section */
 
+#experience {
+    background-color: #FFF6DE;
+    color: #403E37;
+}
 /* Projects Section */
+
+#projects {
+    background-color: #FFF;
+    color: #403E37;
+}
 
 /* Email Form Section */
 
+#contact {
+    background-color: #493323;
+    color: #FFF6DE;
+}
+
 /* Contacts Section */
+
+#outside-links {
+    background-color: #493323;
+    color: #FFF;
+}
 
 /* font-family: 'Nunito', sans-serif; */
