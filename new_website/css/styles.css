@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     position: sticky;
     top: 0;
     text-align: left;
+    z-index: 1;
 }
 
 .navbar-list {
@@ -155,6 +156,70 @@ a {
     color: #403E37;
 }
 
+.intro-column {
+    padding: 2rem;
+}
+
+.description {
+    padding: 0 8%;
+}
+
+.profile-img {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+#skill-carousel {
+    height: 100%;
+}
+
+.skill-column {
+    padding: 0;
+}
+
+.skill-container {
+    padding-top: 2rem;
+}
+
+.skill-category {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.skill-list {
+    text-align: left;
+    padding: 0 5px;
+}
+
+.skill-row {
+    display: flex;
+    height: 2.5rem;
+    margin: 10px 0;
+}
+
+.skill-name {
+    background-color: #493323;
+    color: #FFF;
+    font-size: 1rem;
+    padding-top: 8px;
+    text-align: center;
+    width: 20%;
+}
+
+.skill-progress {
+    background-color: #807B6F;
+    width: 80%;
+}
+
+.skill-progress-bar {
+    background-color: #FFF6DE;
+    height: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 10%;
+    top: 1.5rem;
+}
 
 /* Experience Section */
 
