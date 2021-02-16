@@ -11,9 +11,15 @@ body {
     height: 100vh;
 }
 
+/* Headings */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Nunito", sans-serif;
     font-weight: 900;
+}
+
+.section-heading {
+    margin-bottom: 2rem;
 }
 
 /* Navigation Bar Section */
@@ -138,7 +144,7 @@ a {
 /* Container */
 
 .body-container {
-    padding: 3% 15% 7%;
+    padding: 5% 15% 3%;
 }
 
 
