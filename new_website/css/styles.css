@@ -25,7 +25,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-heading {
     color: #89DDB3;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.section-hr {
+    display: flex;
+}
+
+.hr-part-visible {
+    border: solid;
+    border-color: #000;
+    border-radius: 10px;
+    border-width: 2px;
+
+    flex-grow: 15;
+}
+
+.hr-part-invisible {
+    flex-grow: 70;
 }
 
 /* Title Section */
@@ -119,9 +136,20 @@ a {
 /* Container */
 
 .body-container {
-    padding: 5% 15% 3%;
+    padding: 5% 15% 5%;
 }
 
+.char {
+    font-size: 2rem;
+}
+
+.char.complete {
+    color: #FFC736;
+}
+
+.char.incomplete {
+    color: #4B1E3D;
+}
 
 /* About Section */
 
@@ -130,6 +158,14 @@ a {
     position: relative;
     z-index: 1;
     color: #403E37;
+}
+
+.about-image {
+}
+
+.about-description {
+    text-align: left;
+    font-size: 1.5rem;
 }
 
 .intro-column {
@@ -141,9 +177,18 @@ a {
 }
 
 .profile-img {
-    width: 40%;
+    width: 80%;
     margin-bottom: 1rem;
 }
+
+.update {
+    background-color: #CDBEA0;
+    margin: 5em auto 0;
+    padding: 1rem 1rem 0.5rem;
+    width: 80%;
+}
+
+/* Skill Carousel */
 
 #skill-carousel {
     height: 100%;
@@ -269,16 +314,6 @@ time {
 @media (max-width: 576px) {
     /* Correspond to Bootstrap breakpoint "sm". */
 
-    .title-button {
-        height: 100px;
-        width: 350px;
-        padding: 20px 25px;
-        font-size: 2rem;
-    }
-    .top-navbar-wrapper {
-        padding-top: 10%;
-    }
-
     .title-text-wrapper {
         text-align: center;
     }
@@ -312,6 +347,25 @@ time {
     .navbar {
         direction: rtl; /* Align navbar hamburger to right */
         padding-left: 0;
+    }
+
+    .section-heading {
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        padding-top: 0.25rem;
+    }
+
+    .update {
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .section-hr {
+        margin-top: 4rem;
     }
 }
 
