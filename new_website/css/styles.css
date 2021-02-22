@@ -5,8 +5,13 @@ body {
     font-weight: 400;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 #top-section {
-    background-color: #ffdf91;
+    background-color: #64E6A0;
     padding: 3% 15% 7%;
     height: 100vh;
 }
@@ -19,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-heading {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* Navigation Bar Section */
@@ -40,8 +45,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-list {
-    list-style-type: none;
-    padding-left: 0;
     margin-bottom: 0;
 }
 
@@ -227,11 +230,52 @@ a {
     background-color: #FFF6DE;
     color: #403E37;
 }
+
+.experience-item {
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.experience-intro {
+    display: flex;
+}
+
+.experience-heading {
+    flex-grow: 7;
+}
+
+.experience-side-heading {
+    flex-grow: 3;
+    text-align: right;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+time {
+    font-size: 1.25rem;
+}
+
+.experience-location {
+    color: #807B6F;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.experience-description {
+    line-height: 1.75;
+}
+
 /* Projects Section */
 
 #projects {
     background-color: #FFF;
     color: #403E37;
+}
+
+.card-header {
+    padding-top: 15px;
 }
 
 /* Email Form Section */
