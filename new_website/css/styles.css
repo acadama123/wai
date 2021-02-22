@@ -139,18 +139,6 @@ a {
     padding: 5% 15% 5%;
 }
 
-.char {
-    font-size: 2rem;
-}
-
-.char.complete {
-    color: #FFC736;
-}
-
-.char.incomplete {
-    color: #4B1E3D;
-}
-
 /* About Section */
 
 #about {
@@ -182,14 +170,14 @@ a {
 }
 
 .update {
-    background-color: #CDBEA0;
+    background-color: #FFC736;
     margin: 5em auto 0;
     padding: 1rem 1rem 0.5rem;
     width: 80%;
 }
 
 /* Skill Carousel */
-
+/*
 #skill-carousel {
     height: 100%;
 }
@@ -240,6 +228,58 @@ a {
 .carousel-control-prev, .carousel-control-next {
     height: 10%;
     top: 1.5rem;
+} */
+
+/* Projects Section */
+
+#projects {
+    background-color: #FFF;
+    color: #403E37;
+}
+
+.card-header {
+    padding-top: 15px;
+}
+
+.skills {
+    padding: 0;
+}
+
+.skill-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: [skill-name] 23% repeat(3, [hex] 17% [ellipse] 3%) [hex] 17%;
+}
+
+.skill-name {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 12px 0;
+    width: 5%;
+    text-align: left;
+}
+
+.char {
+    font-size: 3rem;
+}
+
+.char.complete {
+    color: #FFC736;
+}
+
+.char.incomplete {
+    color: #4B1E3D;
+}
+
+.skill-level-description {
+    flex-grow: 7;
+}
+
+.level-desc {
+    display: inline-block;
+    width: 15%;
+    margin: 0 10px;
 }
 
 /* Experience Section */
@@ -284,16 +324,6 @@ time {
     line-height: 1.75;
 }
 
-/* Projects Section */
-
-#projects {
-    background-color: #FFF;
-    color: #403E37;
-}
-
-.card-header {
-    padding-top: 15px;
-}
 
 /* Email Form Section */
 
