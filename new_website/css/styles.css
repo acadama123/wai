@@ -81,19 +81,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Title Section */
 
 .title-text-wrapper {
-    color: #493323;
     margin-top: 25vh;
+    text-align: left;
 }
 
 .title {
+    color: #FFF;
     font-size: 4.5rem;
     margin-bottom: 20px;
 }
 
 .sub-title {
+    color: #4A6657;
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .title-img-wrapper {
@@ -108,14 +110,14 @@ a {
 
 .title-button {
     border: solid;
+    border-color: #FFF;
+    border-radius: 10px;
     border-width: 2px;
-    border-color: #FFF6DE;
     height: 50px;
     width: 225px;
     font-size: 1.25rem;
-    color: #403E37;
+    color: #FFF;
     padding: 8px 25px 12px;
-    margin: 0 auto auto;
     transition: background-color 0.5s, border 0.5s;
 }
 
@@ -124,13 +126,47 @@ a {
 }
 
 .title-button:hover {
-    border-color: #ffdf91;
-    background-color: #eaac7f;
-    color: #FFF6DE;
+    border-color: #64E6A0;
+    background-color: #FFC736;
+    color: #4B1E3D;
 }
 
 .title-button:hover i {
     transform: rotate(90deg);
+}
+
+.hexagon-container {
+    text-align: right;
+    direction: rtl;
+    padding-top: 15em;
+}
+
+.hex:before {
+    content: "";
+    width: 0;
+    border-bottom: 9em solid #4B1E3D;
+    border-left: 15em solid transparent;
+    border-right: 15em solid transparent;
+    position: absolute;
+    top: -9em;
+}
+
+.hex {
+    margin-top: 30px;
+    width: 30em;
+    height: 18em;
+    background-color: #4B1E3D;
+    position: relative;
+}
+
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -9em;
+    border-top: 9em solid #4B1E3D;
+    border-left: 15em solid transparent;
+    border-right: 15em solid transparent;
 }
 
 @media (max-width: 768px) {
@@ -156,6 +192,8 @@ a {
 
 #about {
     background-color: #FFF;
+    position: relative;
+    z-index: 1;
     color: #403E37;
 }
 
