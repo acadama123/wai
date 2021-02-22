@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -18,23 +18,12 @@
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Duong Nguyen | Front End Web Developer</title>
+    <title>Duong Nguyen Personal Website</title>
 </head>
 
 <body>
 
     <section id="top-section">
-
-        <!-- <div class="top-navbar-wrapper">
-            <ul class="navbar-list">
-                <li class="navbar-item">
-                    <a href="index.html"><i class="far fa-file-alt fa-3x resume-page-icon"></i></a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#"><i class="far fa-user fa-3x personal-page-icon"></i></a>
-                </li>
-            </ul>
-        </div> -->
 
         <div class="title-text-wrapper">
             <h1 class="title">Hi, my name is Duong</h1>
@@ -44,34 +33,28 @@
             </a>
         </div>
         <div class="hexagon-container">
-            <div class="hex">
-
-            </div>
+            <span class="hexagon">&#x2B22;</span>
         </div>
-
 
     </section>
 
-    <div class="body-navbar-wrapper">
-        <ul class="navbar-list">
-            <li class="navbar-item">
-                <a href="#top-section">Home</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#about">About</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#experience">Experience</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#projects">Projects</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-
-    </div>
+    <nav class="navbar sticky-top navbar-expand-sm">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#body-navbar" aria-controls="body-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="body-navbar">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#top-section">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <section class="body-container" id="about">
         <h1 class="section-heading">ABOUT</h1>
@@ -257,43 +240,6 @@
 
     </section>
 
-    <section class="body-container" id="experience">
-        <h1 class="section-heading">EXPERIENCE</h1>
-        <div class="experience-item">
-            <div class="experience-intro">
-                <div class="experience-heading">
-                    <h2>Machine Learning Research Assistant</h2>
-                    <h3 class="experience-location">Center for Animal Disease Modelling and Surveillance</h3>
-                </div>
-                <div class="experience-side-heading">
-                    <address>Davis, CA</address>
-                    <time>03/2020 - 09/2020</time>
-                </div>
-            </div>
-            <ul class="experience-description">
-                <li>Developed a computer vision model pipeline to detect swine farms using satellite images, achieved a 91.33% accuracy.</li>
-                <li>Extracted and preprocessed 1.1 GBs of satellite images from USDA’s ArcGIS server.</li>
-                <li>Filtered and analyzed 13,000+ entries in the IDNR’s AFO dataset.</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <div class="experience-intro">
-                <div class="experience-heading">
-                    <h2>Undergraduate Research Assistant</h2>
-                    <h3 class="experience-location">UC Davis Department of Computer Science</h3>
-                </div>
-                <div class="experience-side-heading">
-                    <address>Davis, CA</address>
-                    <time>09/2019 - 12/2019</time>
-                </div>
-            </div>
-            <ul class="experience-description">
-                <li>Developed and trained a general-strategy AI player for the game Hanabi in a team of 6 using Tensorflow.</li>
-                <li>Analyzed, illustrated, and presented initial results of the base model to the team and the supervising professor.</li>
-            </ul>
-        </div>
-    </section>
-
     <section class="body-container" id="projects">
         <h1 class="section-heading">Projects</h1>
         <div class="row">
@@ -369,6 +315,47 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="body-container" id="experience">
+        <h1 class="section-heading">EXPERIENCE</h1>
+        <div class="experience-item">
+            <div class="experience-intro">
+                <div class="experience-heading">
+                    <h2>Machine Learning Research Assistant</h2>
+                    <h3 class="experience-location">Center for Animal Disease Modelling and Surveillance</h3>
+                </div>
+                <div class="experience-side-heading">
+                    <address>Davis, CA</address>
+                    <time>03/2020 - 09/2020</time>
+                </div>
+            </div>
+            <ul class="experience-description">
+                <li>Developed a computer vision model pipeline to detect swine farms using satellite images, achieved a 91.33% accuracy.</li>
+                <li>Extracted and preprocessed 1.1 GBs of satellite images from USDA’s ArcGIS server.</li>
+                <li>Filtered and analyzed 13,000+ entries in the IDNR’s AFO dataset.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-intro">
+                <div class="experience-heading">
+                    <h2>Undergraduate Research Assistant</h2>
+                    <h3 class="experience-location">UC Davis Department of Computer Science</h3>
+                </div>
+                <div class="experience-side-heading">
+                    <address>Davis, CA</address>
+                    <time>09/2019 - 12/2019</time>
+                </div>
+            </div>
+            <ul class="experience-description">
+                <li>Developed and trained a general-strategy AI player for the game Hanabi in a team of 6 using Tensorflow.</li>
+                <li>Analyzed, illustrated, and presented initial results of the base model to the team and the supervising professor.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="body-container" id="hobbies">
+        Hello
     </section>
 
     <section class="body-container" id="contact">
