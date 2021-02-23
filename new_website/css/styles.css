@@ -333,6 +333,26 @@ time {
     line-height: 1.75;
 }
 
+/* Hobbies Section */
+
+.hobby-category {
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hobby-subcategory {
+    margin-bottom: 2rem;
+}
+
+
+
+.book-image {
+    height: 300px;
+    margin-bottom: 1.5rem;
+}
+
+
 /* Email Form Section */
 
 #contact {
