@@ -352,19 +352,34 @@ time {
     margin-bottom: 1.5rem;
 }
 
-
 /* Email Form Section */
 
 #contact {
-    background-color: #493323;
-    color: #FFF6DE;
+    background-color: #64E6A0;
+    color: #FFF;
+}
+
+#contact .section-heading {
+    color: #FFF;
+}
+
+.form-content {
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: [label] 100px [text-box] 250px;
+    grid-template-rows: [name] 30px [email] 30px [message] 250px;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    right: 58px;
+    row-gap: 1rem;
 }
 
 /* Contacts Section */
 
 #outside-links {
-    background-color: #ffdf91;
-    color: #493323;
+    background-color: #FFC736;
+    color: #4B1E3D;
 }
 
 /* font-family: 'Nunito', sans-serif; */
@@ -494,6 +509,22 @@ time {
         color: #ab9e87;
         display: inline;
         font-size: 1rem;
+    }
+
+    /* Contact Section */
+    .form-content {
+        column-gap: 1rem;
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(2, [name] 30px [text] 30px) [name] 30px [message] 250px;
+        justify-content: center;
+        margin-bottom: 1rem;
+        right: 0;
+        row-gap: 0;
+    }
+
+    #contact.body-container {
+        padding-bottom: 10%;
     }
 }
 
