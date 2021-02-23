@@ -168,6 +168,11 @@ a {
     margin: 5em auto 0;
     padding: 1rem 1rem 0.5rem;
     line-height: 1.5;
+    width: 80%;
+}
+
+.update-icon {
+    font-size: 1.25rem;
 }
 
 /* Projects Section */
