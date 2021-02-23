@@ -1,150 +1,472 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!-- dir indicates direction of text.
-     English text goes from left to right, thus "ltr"
-    -->
 
 <head>
     <meta charset="utf-8">
-    <title>Duong Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Montserrat:wght@400;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/a001d0f027.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
+
+    <title>Duong Nguyen Personal Website</title>
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="imgs/profile.png" alt="Duong profile image"></td>
-            <td>
-                <h1>Duong Nguyen</h1>
-                <p><em>Senior undergraduate @ <strong>University of California, Davis</strong></em></p>
-                <p><em>Major in Computer Science; minor in Technology Management</em></p>
-                <p>
-                    <a href="learningprogress.html">Learning</a> to make useful and slick webapps. 6+ months experience in ML. Cat-less cat lover.
-                </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>University of California, Davis - Bachelor of Science in Computer Science (graduating December 2021)</li>
-        <li>University of California, Los Angeles - <a href="https://www.summer.ucla.edu/institutes/TechnologyLeadership">Technology Leadership Summer Institute</a> <a href="https://www.linkedin.com/in/duonguyen21d/detail/treasury/education:670308495/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACZCxGIBi9YIWrFNWd7YJuc5KUDuQtOfHWA%2C1600912367308)&section=education%3A670308495&treasuryCount=2">2020</a></li>
-    </ul>
-    <hr>
-    <h3>Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Start Date - End Date</th>
-                <th>Job Title</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Mar 2020 - Sep 2020</td>
-                <td>Machine Learning Research Assistant at <a href="https://cadms.vetmed.ucdavis.edu/">Center for Animal Disease Modeling and Surveillance</a></td>
-            </tr>
-            <tr>
-                <td>Sep 2019 - Dec 2019</td>
-                <td>Undergraduate Research Assistant at UC Davis Department of Computer Science</td>
-            </tr>
-        </tbody>
-        <tfoot>
 
-        </tfoot>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Front-End</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>HTML</td>
-                            <td>🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>🌟</td>
-                        </tr>
-                        <tr>
-                            <td>jQuery</td>
-                            <td>🌟</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Back-End</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Node.js</td>
-                            <td>🌟</td>
-                        </tr>
-                        <tr>
-                            <td>MongoDB</td>
-                            <td>🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Mongoose</td>
-                            <td>🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>🌟</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Data Science</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Python</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>R</td>
-                            <td>🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>C</td>
-                            <td>🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>SQL</td>
-                            <td>🌟🌟</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contactinfo.html">Contact Me</a>
+    <section id="top-section">
+
+        <div class="title-text-wrapper">
+            <h1 class="title">Hi, my name is Duong</h1>
+            <h2 class="sub-title">Senior CS Undergrad at UC Davis</h2>
+            <a href="#about">
+                <div class="title-button">View my work <i class="fas fa-arrow-right"></i></div>
+            </a>
+        </div>
+        <div class="hexagon-container">
+            <span class="hexagon">&#x2B22;</span>
+        </div>
+
+    </section>
+
+    <nav class="navbar sticky-top navbar-expand-md">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#body-navbar" aria-controls="body-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="body-navbar">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#top-section">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="body-container" id="about">
+        <h1 class="section-heading">ABOUT</h1>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 about-image">
+                    <img class="profile-img" src="images/profile.jpg" alt="profile_img">
+                </div>
+                <div class="col-lg-9 about-description">
+                    <p>I like writing. Whether it's code or words that I'm writing down, the act gives shape to my ideas—ideas that once shaped enough times can become helpful for others.</p>
+                    <p>Therefore, I like writings. Good writings, regardless of the field, shine with the efforts of their authors in crafting what they believe would best benefit people.</p>
+                    <p>And everyone has potential to write well. Thus, my goal in a team is to set up processes that free up my teammates to work. The less tasks they have to manage, the more they can focus on writing well-written code.</p>
+                    <p>In my free time, I like to read, jog, play games, and watch movies. Click <a href="#hobbies">here</a> to find out more about my hobbies.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="update">
+            <p>Duong Nguyen is graduating from UC Davis in June 2021 with a Bachelor of Science in Computer Science and a minor in Technology Management. He has worked on multiple ML projects in the past 1.5+ years. Currently, he is learning full
+                stack web development with the goal of creating AI-driven web apps in the future.</p>
+        </div>
+
+    </section>
+
+    <div class="section-hr">
+        <div class="hr-part-visible"></div>
+        <div class="hr-part-invisible"></div>
+        <div class="hr-part-visible"></div>
+    </div>
+
+    <section class="body-container" id="skills">
+        <h1 class="section-heading">SKILLS</h1>
+
+        <div id="skills-and-projects-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="skill-category">Machine Learning</h2>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-8 skills">
+                                <div class="skill-container">
+                                    <span class="skill-name">Python</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+
+                                    <span class="skill-name">R</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">Tensorflow</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">SQL</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">&nbsp</span>
+                                    <span class="skill-level-desc">Completed tutorials on it </span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed a project with it</span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed 2-4 project with it</span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed 5+ project with it</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 highlighted-project">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Rating Probability Predictor</h3>
+                                    </div>
+                                    <img src="images/recommender-system.png" alt="recSys-img">
+                                    <div class="card-body">
+                                        <p>An implementation of several recommendation algorithms.</p>
+                                        <p>Tech used: R</p>
+                                        <p>Team size: 5</p>
+                                        <div class="d-grid">
+                                            <a href="https://github.com/ynnalecitona/Rating-Probability-Predictor" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="skill-category">Front End Web Dev</h2>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-8 skills">
+                                <div class="skill-container">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">CSS</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">Bootstrap</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char complete">&#x22EF; </span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">Javascript</span>
+                                    <span class="char complete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+                                    <span class="char incomplete">&#x22EF; </span>
+                                    <span class="char incomplete">&#x2B22; </span>
+
+                                    <span class="skill-name">&nbsp</span>
+                                    <span class="skill-level-desc">Completed tutorials on it </span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed a project with it</span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed 2-4 project with it</span>
+                                    <span class="">&nbsp</span>
+                                    <span class="skill-level-desc">Completed 5+ project with it</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 highlighted-project">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>TinDog</h3>
+                                    </div>
+                                    <img class="card-img" src="images/tindog.png" alt="tindog-img">
+                                    <div class="card-body">
+                                        <p>TinDog—A Tinder service for dogs.</p>
+                                        <p>Tech used: HTML, CSS, Bootstrap</p>
+                                        <p>Team size: 1</p>
+                                        <div class="d-grid">
+                                            <a href="https://github.com/acadama123/Udemy-WebDev-Projects/tree/main/TinDog" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#skills-and-projects-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#skills-and-projects-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <div class="section-hr">
+        <div class="hr-part-visible"></div>
+        <div class="hr-part-invisible"></div>
+        <div class="hr-part-visible"></div>
+    </div>
+
+    <section class="body-container" id="projects">
+
+        <h1 class="section-heading">PROJECTS</h1>
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>AlphaCuatro</h3>
+                    </div>
+                    <img src="images/connect-4.jpg" alt="AlphaCuatro-img">
+                    <div class="card-body">
+                        <p>A Connect-4 AI player with my own heuristics.</p>
+                        <p>Tech used: Java</p>
+                        <p>Team size: 3</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/abhaysawhney/AlphaCuatro" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Qnnect4</h3>
+                    </div>
+                    <img src="images/network.jpg" alt="Qnnect4-img">
+                    <div class="card-body">
+                        <p>An improvement on Qnnect4 with the Q learning method.</p>
+                        <p>Tech used: Java</p>
+                        <p>Team size: 3</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/abhaysawhney/Qnnect4" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Ganabi</h3>
+                    </div>
+                    <img src="images/hanabi.jpg" alt="Ganabi-img">
+                    <div class="card-body">
+                        <p>Generating a model of a Hanabi player by analyzing their play data.</p>
+                        <p>Tech used: Python</p>
+                        <p>Team size: 8</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/acadama123/ganabi" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Rating Probability Predictor</h3>
+                    </div>
+                    <img src="images/recommender-system.png" alt="recSys-img">
+                    <div class="card-body">
+                        <p>A collection of recommendation algorithms.</p>
+                        <p>Tech used: R</p>
+                        <p>Team size: 6</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/ynnalecitona/Rating-Probability-Predictor" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Taste</h3>
+                    </div>
+                    <img src="images/knn.png" alt="kNN-img">
+                    <div class="card-body">
+                        <p>An implementation of the k-nearest neighbor algorithm in R.</p>
+                        <p>Tech used: R</p>
+                        <p>Team size: 1</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/acadama123/taste" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>TinDog</h3>
+                    </div>
+                    <img class="card-img" src="images/tindog.png" alt="tindog-img">
+                    <div class="card-body">
+                        <p>TinDog—A Tinder service for dogs.</p>
+                        <p>Tech used: HTML, CSS, Bootstrap</p>
+                        <p>Team size: 1</p>
+                        <div class="d-grid">
+                            <a href="https://github.com/acadama123/Udemy-WebDev-Projects/tree/main/TinDog" type="button" class="btn btn-lg btn-dark"><i class="fab fa-github"></i> Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-hr">
+        <div class="hr-part-visible"></div>
+        <div class="hr-part-invisible"></div>
+        <div class="hr-part-visible"></div>
+    </div>
+
+    <section class="body-container" id="experience">
+        <h1 class="section-heading">EXPERIENCE</h1>
+        <div class="experience-item">
+            <div class="experience-intro">
+                <div class="experience-heading">
+                    <h2 class="experience-title">Machine Learning Research Assistant</h2>
+                    <h3 class="experience-location">Center for Animal Disease Modelling and Surveillance</h3>
+                </div>
+                <div class="experience-side-heading">
+                    <address>Davis, CA</address>
+                    <time>03/2020 - 09/2020</time>
+                </div>
+            </div>
+            <ul class="experience-description">
+                <li>Developed a computer vision model pipeline to detect swine farms using satellite images, achieved a 91.33% accuracy.</li>
+                <li>Extracted and preprocessed 1.1 GBs of satellite images from USDA’s ArcGIS server.</li>
+                <li>Filtered and analyzed 13,000+ entries in the IDNR’s AFO dataset.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-intro">
+                <div class="experience-heading">
+                    <h2 class="experience-title">Undergraduate Research Assistant</h2>
+                    <h3 class="experience-location">UC Davis Department of Computer Science</h3>
+                </div>
+                <div class="experience-side-heading">
+                    <address>Davis, CA</address>
+                    <time>09/2019 - 12/2019</time>
+                </div>
+            </div>
+            <ul class="experience-description">
+                <li>Developed and trained a general-strategy AI player for the game Hanabi in a team of 6 using Tensorflow.</li>
+                <li>Analyzed, illustrated, and presented initial results of the base model to the team and the supervising professor.</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="section-hr">
+        <div class="hr-part-visible"></div>
+        <div class="hr-part-invisible"></div>
+        <div class="hr-part-visible"></div>
+    </div>
+
+    <section class="body-container" id="hobbies">
+        <h1 class="section-heading">HOBBIES</h1>
+        <div class="hobby-category">
+            <h2>Reading</h2>
+        </div>
+        <div class="hobby-subcategory">
+            <h3>Currently reading</h3>
+            <div class="row current-books">
+                <div class="col-lg-4 col-md-12">
+                    <img class="book-image" src="images/books/branding-pays.jpg" alt="branding-pays-img">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img class="book-image" src="images/books/thanks-for-the-feedback.jpg" alt="feedback-book-img">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img class="book-image" src="images/books/hbr-managing-yourself.jpg" alt="managing-yourself-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="hobby-subcategory">
+            <h3>2021 Completed</h3>
+            <div class="row completed-books">
+                <div class="col-lg-4 col-md-12">
+                    <img class="book-image" src="images/books/book-of-joy.jpg" alt="book-of-joy-img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="body-container" id="contact">
+        <h1 class="section-heading">Contact</h1>
+        <form action="mailto:mdnnguyen@ucdavis.edu" method="post" enctype="text/plain">
+            <div class="form-content">
+                <label>Your Name:</label>
+                <input type="text" name="yourName">
+                <label>Your Email:</label>
+                <input type="email" name="yourEmail">
+                <label>Your Message:</label>
+                <textarea name="yourMessage"></textarea>
+            </div>
+            <input type="submit">
+        </form>
+    </section>
 
 </body>
+
+<footer>
+
+    <section id="outside-links">
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/duonguyen21d/"><i class="fab fa-linkedin link-icon"></i></a>
+            <a href="https://github.com/acadama123"><i class="fab fa-github link-icon"></i></a>
+        </div>
+
+        <p>© 2021 Duong Nguyen.</p>
+    </section>
+
+</footer>
 
 </html>
