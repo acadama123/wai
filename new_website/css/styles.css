@@ -249,6 +249,7 @@ a {
     align-items: center;
     display: grid;
     grid-template-columns: [skill-name] 23% repeat(3, [hex] 17% [ellipse] 3%) [hex] 17%;
+    padding-right: 10px;
 }
 
 .skill-name {
@@ -272,14 +273,22 @@ a {
     color: #4B1E3D;
 }
 
-.skill-level-description {
-    flex-grow: 7;
+.skill-category {
+    margin-bottom: 1.5rem;
 }
 
-.level-desc {
-    display: inline-block;
-    width: 15%;
-    margin: 0 10px;
+.carousel-control-prev, .carousel-control-next {
+    background-color: #FFC736;
+    height: 2rem;
+    border: none;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    text-align: left;
 }
 
 /* Experience Section */
@@ -343,6 +352,11 @@ time {
 @media (max-width: 576px) {
     /* Correspond to Bootstrap breakpoint "sm". */
 
+    #top-section {
+        padding: 3% 5% 7%;
+    }
+
+    /* Title Section */
     .title-text-wrapper {
         text-align: center;
     }
@@ -373,6 +387,7 @@ time {
         font-size: 12em;
     }
 
+    /* Navbar Section */
     .navbar {
         direction: rtl; /* Align navbar hamburger to right */
         padding-left: 0;
@@ -383,6 +398,7 @@ time {
         margin-bottom: 1.5rem;
     }
 
+    /* About Section */
     .about-description {
         font-size: 1rem;
         padding-top: 0.25rem;
@@ -394,8 +410,46 @@ time {
     }
 
     .section-hr {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
+
+    /* Skills Section */
+
+    .body-container {
+        padding: 5% 5% 0;
+    }
+
+    .skill-category {
+        font-size: 1.15rem;
+        padding: 5px;
+    }
+
+    .skill-container {
+        grid-template-columns: [skill-name] 27% repeat(3, [hex] 13% [ellipse] 7%) [hex] 13%;
+        padding-right: 0;
+    }
+
+    .skill-name {
+        font-size: 0.75rem;
+    }
+
+    .char {
+        font-size: 1.5rem;
+    }
+
+    .skill-level-desc {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    #skills .card-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .highlighted-project {
+        padding-top: 2rem;
+    }
+
 }
 
 /* @media (max-width: 736px) {
