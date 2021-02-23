@@ -324,7 +324,7 @@ time {
 }
 
 .experience-location {
-    color: #807B6F;
+    color: #665f4d;
     font-size: 1.5rem;
     font-weight: 300;
 }
@@ -332,7 +332,6 @@ time {
 .experience-description {
     line-height: 1.75;
 }
-
 
 /* Email Form Section */
 
@@ -451,6 +450,31 @@ time {
 
     }
 
+    /* Experience section  */
+
+    .experience-intro {
+        display: inherit;
+    }
+
+    .experience-location {
+        font-size: 1.25rem;
+    }
+
+    .experience-side-heading {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    address {
+        color: #ab9e87;
+        display: inline;
+    }
+
+    time {
+        color: #ab9e87;
+        display: inline;
+        font-size: 1rem;
+    }
 }
 
 /* @media (max-width: 736px) {
