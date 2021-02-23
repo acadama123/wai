@@ -1,7 +1,12 @@
+html {
+
+}
+
 body {
-    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    scroll-behavior: smooth;
+    text-align: center;
 }
 
 ul {
@@ -293,10 +298,11 @@ time {
 }
 
 #contact .section-heading {
-    color: #FFF;
+    color: #2C6647;
 }
 
 .form-content {
+    color: #2C6647;
     column-gap: 1rem;
     display: grid;
     grid-template-columns: [label] 100px [text-box] 300px;
@@ -325,7 +331,7 @@ time {
 }
 
 .contact-links a:hover {
-    color: #64E6A0;
+    color: #3f8c63;
 }
 
 @media (max-width: 1366px) and (min-width: 897px) {
