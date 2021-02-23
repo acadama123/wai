@@ -328,9 +328,85 @@ time {
     color: #64E6A0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1366px) and (min-width: 897px) {
 
-    /* Correspond to Bootstrap breakpoint "sm". */
+    .navbar {
+        padding-left: 0;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+        margin: 0 1em;
+    }
+
+    .skill-name {
+        font-size: 1.5rem;
+    }
+
+    .char {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width: 896px) and (min-width: 737px) {
+
+    #top-section {
+        height: 150vh;
+    }
+
+    .navbar {
+        padding-left: 0;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        margin: 0 0.75em;
+    }
+
+    .profile-img {
+        width: 50%;
+    }
+
+    /* Skills Section */
+    .body-container {
+        padding: 5% 5% 0;
+    }
+
+    .skill-category {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .skill-container {
+        grid-template-columns: [skill-name] 27% repeat(3, [hex] 13% [ellipse] 7%) [hex] 13%;
+        padding-right: 0;
+    }
+
+    .skill-name {
+        font-size: 1.25rem;
+    }
+
+    .char {
+        font-size: 1.75rem;
+    }
+
+    .skill-level-desc {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #skills .card-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .highlighted-project {
+        padding: 2rem 0 0;
+    }
+}
+
+@media (max-width: 736px) {
+
     #top-section {
         padding: 3% 5% 7%;
     }
@@ -470,19 +546,3 @@ time {
         padding-bottom: 10%;
     }
 }
-
-/* @media (max-width: 736px) {
-    .title-text-wrapper {
-        text-align: center;
-    }
-
-    .title-button {
-        height: 100px;
-        width: 350px;
-        padding: 20px 25px;
-        font-size: 2rem;
-    }
-    .top-navbar-wrapper {
-        padding-top: 10%;
-    }
-} */
