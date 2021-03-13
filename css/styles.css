@@ -10,7 +10,7 @@ ul {
     padding-left: 0;
 }
 
-#top-section {
+#home {
     background-color: #64E6A0;
     padding: 3% 15% 7%;
     height: 100vh;
@@ -358,7 +358,7 @@ time {
 
 @media (max-width: 896px) and (min-width: 737px) {
 
-    #top-section {
+    #home {
         height: 150vh;
     }
 
@@ -414,7 +414,7 @@ time {
 
 @media (max-width: 736px) {
 
-    #top-section {
+    #home {
         padding: 3% 5% 7%;
     }
 
