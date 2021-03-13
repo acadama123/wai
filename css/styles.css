@@ -306,6 +306,7 @@ time {
     color: #2C6647;
     column-gap: 1rem;
     display: grid;
+    font-family: "Montserrat", sans-serif;
     grid-template-columns: [label] 100px [text-box] 300px;
     grid-template-rows: [name] 30px [email] 30px [message] 250px;
     justify-content: center;
@@ -313,6 +314,22 @@ time {
     position: relative;
     right: 58px;
     row-gap: 1rem;
+}
+
+.contact-input {
+    background-color: #175735;
+    border: none;
+    border-radius: 3px;
+    color: #ffd66f;
+    padding-left: 8px;
+}
+
+.contact-button {
+    background-color: #FFC736;
+    border: none;
+    border-radius: 5px;
+    color: #2C6647;
+    padding: 3px 10px;
 }
 
 /* Contacts Section */
